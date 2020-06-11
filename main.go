@@ -25,7 +25,7 @@ func main() {
 	commandArgs := flag.String("args", "", "The command arguments")
 	logFileName := flag.String("logfile", "-", "The name of the file to log")
 	useTLS := flag.Bool("useTLS", true, "Use TLS to connect to the server")
-	server := flag.String("server", "go.tty-share.com:7654", "tty-server address")
+	server := flag.String("server", "tty.logger.software:6543", "tty-server address")
 	versionFlag := flag.Bool("version", false, "Print the tty-share version")
 	flag.Parse()
 
